@@ -83,7 +83,7 @@ a {
     text-align: center;
     border: 1px solid #cccc;
     border-collapse: collapse;
-    padding: 12px 0;
+    padding: 12px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -112,6 +112,7 @@ a {
     outline: none;
     padding-left: 6px;
     height: 30px;
+    margin-top: 25px;
 }
 /* ------------sub-cartegory-add-content---------------- */
 .subcartegory-input {
@@ -168,7 +169,7 @@ a {
 .login {
     height: 100vh;
     width: 100vw;
-    background-color: rgba(9, 18, 40, 0.1);
+    background-color: rgb(48 250 142 / 24%);
     display: flex;
     align-items: center;
     text-align: center;
@@ -222,9 +223,9 @@ a {
 /* --------------------Bổ sung------------------ */
 .sanpham-size input {
     padding-left: 0px!important;
-    height: 15px!important;
+    height: 18px!important;
     margin-right: 10px!important;
-    width: 15px!important;
+    width: 50px!important;
     color: white;
 }
 .sanpham-size {
@@ -232,4 +233,68 @@ a {
 }
 .cot-trai-tru-logo{
     border-right: 1px #000000 solid;
+}
+
+.btn-index {
+  align-items: center;
+  appearance: none;
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.btn-index:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.btn-index:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #fbfbfb 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.btn-index:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+
+.button-detail {
+    background-image: radial-gradient(100% 100% at 100% 0, #00ffb8 0, #34d29b 100%);
+}
+.button-stt {
+    background-image: radial-gradient(100% 100% at 100% 0, #afbed5 0, #205fe7 100%);
+}
+.button-delete {
+    background-image: radial-gradient(100% 100% at 100% 0, #c71212 0, #fd0036 100%);
+}
+
+.fa-list-check:before, .fa-tasks:before {
+    content: "\f0ae";
+    margin-right: 10px;
+}
+.fa-arrow-up-wide-short:before, .fa-sort-amount-up:before {
+    content: "\f161";
+    margin-right: 10px;
 }

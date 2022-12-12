@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
         <div class="admin-content-right">
             <div class="subcartegory-add-content">
                 <form action="" method="POST" enctype="multipart/form-data">
-                <label for="" style="color:white">Chọn danh mục<span style="color: red;">*</span></label> <br>
+                <label for="" style="color:black">Chọn danh mục<span style="color: red;">*</span></label> <br>
                      <select required="required" name="danhmuc_id" id="">
                         <option value="">--Chọn--</option>
                         <?php
@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
                         }}
                         ?>
                     </select><br>
-                    <label for=""style="color:white">Vùi lòng chọn Loại sản phẩm<span style="color: red;">*</span></label> <br>
+                    <label for=""style="color:black">Vùi lòng chọn Loại sản phẩm<span style="color: red;">*</span></label> <br>
                     <input class="subcartegory-input" type="text" name="loaisanpham_name">
                     <button class="admin-btn" style="background-color:red; border-color:blue; color:white" type="submit">Gửi</button>             
                 </form>

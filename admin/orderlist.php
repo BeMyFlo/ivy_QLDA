@@ -20,7 +20,7 @@ if (isset($_GET['status'])){
    
 ?>
         <div class="admin-content-right">
-        <h1 style="color:#ffffff">Các đơn hàng chưa hoàn thành:</h1>
+        <h1 style="color:black">Các đơn hàng chưa hoàn thành:</h1>
                 <br>
             <div class="table-content">
                 <table>
@@ -50,9 +50,9 @@ if (isset($_GET['status'])){
                         <td> <?php echo $result['customer_diachi']  ?>, <?php echo $result['phuong_xa']  ?>, <?php echo $result['quan_huyen']  ?>, <?php echo $result['tinh_tp']  ?></td>
                         <td> <?php echo $result['giaohang']  ?></td>
                         <td> <?php echo $result['thanhtoan']  ?></td>
-                        <td> <a href="orderdetail.php?order_ma=<?php echo $result['session_idA'] ?>">Xem</a></td>            
-                        <td><a style="color:tomato" href="?status=1&session_idA=<?php echo $result['session_idA'] ?>">Đã hoàn thành</a></td>
-                        <td><a href="orderdelete.php?session_idA=<?php echo $result['session_idA'] ?>" onclick="return confirm('Đơn hàng sẽ bị xóa vĩnh viễn, bạn có chắc muốn tiếp tục không?');">Xóa</a></td>
+                        <td> <a class="btn-index button-detail" href="orderdetail.php?order_ma=<?php echo $result['session_idA'] ?>">Xem</a></td>            
+                        <td> <a class="btn-index button-stt" href="?status=1&session_idA=<?php echo $result['session_idA'] ?>">Đã hoàn thành</a></td>
+                        <td> <a class="btn-index button-delete" href="orderdelete.php?session_idA=<?php echo $result['session_idA'] ?>" onclick="return confirm('Đơn hàng sẽ bị xóa vĩnh viễn, bạn có chắc muốn tiếp tục không?');">Xóa</a></td>
                     </tr>
                     <?php
                      }}

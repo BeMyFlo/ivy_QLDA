@@ -23,9 +23,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
         <div class="admin-content-right">
             <div class="cartegory-add-content">
                 <form action="" method="POST" enctype="multipart/form-data">
-                    <label for="" style="color:white">Vui lòng danh mục<span style="color: red;">*</span></label> <br>
+                    <label for="" style="color:black">Vui lòng danh mục<span style="color: red;">*</span></label> <br>
                     <input type="text" name="danhmuc_ten" value="<?php echo $resul['danhmuc_ten'] ?>">
-                    <button class="admin-btn" style="background-color:red; border-color:blue; color:white" type="submit">Sửa</button>             
+                    <button class ="btn-index button-stt" type="submit">Sửa</button>             
                 </form>
             </div>           
         </div>

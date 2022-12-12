@@ -22,15 +22,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])){
                 if(isset($insert_product)){echo $insert_product; }
                 ?>
                 <form action="productadd.php" method="POST" enctype="multipart/form-data">
-                    <label for="" style="color:white">Tên sản phẩm<span style="color: red;">*</span></label> <br>
+                    <label for="" style="color:black">Tên sản phẩm<span style="color: red;">*</span></label> <br>
                     <input required type="text" name="sanpham_tieude"> <br>
-                    <label for="" style="color:white">Mã sản phẩm<span style="color: red;">*</span></label> <br>
+                    <label for="" style="color:black">Mã sản phẩm<span style="color: red;">*</span></label> <br>
                     <input required type="text" name="sanpham_ma"> <br>
                     <!-- <label for="">Ngày bài viết<span style="color: red;">*</span></label> <br>
                     <input type="text" name="baiviet_ngay"> <br>
                     <label for="">Tác giả bài viết<span style="color: red;">*</span></label> <br>
                     <input type="text" name="baiviet_tacgia"> <br> -->
-                    <label for="" style="color:white">Chọn danh mục<span style="color: red;">*</span></label> <br>
+                    <label for="" style="color:black">Chọn danh mục<span style="color: red;">*</span></label> <br>
                     <select required="required" name="danhmuc_id" id="danhmuc_id">
                         <option value="">--Chọn--</option>
                         <?php
@@ -42,12 +42,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])){
                         }}
                         ?>
                     </select>
-                    <label for="" style="color:white">Chọn Loại sản phẩm<span style="color: red;">*</span></label> <br>
+                    <label for="" style="color:black">Chọn Loại sản phẩm<span style="color: red;">*</span></label> <br>
                     <select required="required" name="loaisanpham_id" id="loaisanpham_id">
                         <option value="">--Chọn--</option>
                       
                     </select>
-                    <label for="" style="color:white">Chọn Màu sản phẩm<span style="color: red;">*</span></label> <br>
+                    <label for="" style="color:black">Chọn Màu sản phẩm<span style="color: red;">*</span></label> <br>
                     <select required="required" name="color_id" id="">
                         <option value="">--Chọn--</option>
                         <?php
@@ -59,23 +59,23 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])){
                         }}
                         ?>
                     </select>
-                    <label for="" style="color:white">Chọn Size sản phẩm<span style="color: red;">*</span></label> <br>
+                    <label for="" style="color:black">Chọn Size sản phẩm<span style="color: red;">*</span></label> <br>
                     <div class="sanpham-size">
-                    <p style="color:white">S</p>    <input type="checkbox" name="sanpham-size[]" value="S"> 
-                    <p style="color:white">M</p>    <input type="checkbox" name="sanpham-size[]" value="M"> 
-                    <p style="color:white">L</p>    <input type="checkbox" name="sanpham-size[]" value="L">
-                    <p style="color:white">XL</p>   <input type="checkbox" name="sanpham-size[]" value="XL">  
-                    <p style="color:white">XXL</p>  <input type="checkbox" name="sanpham-size[]" value="XXL">  
+                    <p style="color:black">S</p>    <input type="checkbox" name="sanpham-size[]" value="S"> 
+                    <p style="color:black">M</p>    <input type="checkbox" name="sanpham-size[]" value="M"> 
+                    <p style="color:black">L</p>    <input type="checkbox" name="sanpham-size[]" value="L">
+                    <p style="color:black">XL</p>   <input type="checkbox" name="sanpham-size[]" value="XL">  
+                    <p style="color:black">XXL</p>  <input type="checkbox" name="sanpham-size[]" value="XXL">  
                     </div>
-                    <label for="" style="color:white">Giá sản phẩm<span style="color: red;">*</span></label> <br>
+                    <label for="" style="color:black">Giá sản phẩm<span style="color: red;">*</span></label> <br>
                     <input required type="text" name="sanpham_gia"> <br>  
-                    <label for="" style="color:white">Chi tiết<span style="color: red;">*</span></label> <br>
+                    <label for="" style="color:black">Chi tiết<span style="color: red;">*</span></label> <br>
                     <textarea class="ckeditor"  required name="sanpham_chitiet" cols="60" rows="5"></textarea><br>  
-                    <label  for="" style="color:white">Bảo quản<span style="color: red;">*</span></label> <br>
+                    <label  for="" style="color:black">Bảo quản<span style="color: red;">*</span></label> <br>
                     <textarea class="ckeditor" required name="sanpham_baoquan" cols="60" rows="5"></textarea><br> 
-                    <label for="" style="color:white">Ảnh đại diện<span style="color: red;">*</span></label> <br>
+                    <label for="" style="color:black">Ảnh đại diện<span style="color: red;">*</span></label> <br>
                     <input required type="file" name="sanpham_anh"> <br>   
-                    <label for="" style="color:white">Ảnh Sản phẩm<span style="color: red;">*</span></label> <br>
+                    <label for="" style="color:black">Ảnh Sản phẩm<span style="color: red;">*</span></label> <br>
                     <input required type="file" multiple  name="sanpham_anhs[]"> <br>   
                     <button class="admin-btn" name="submit" type="submit">Gửi</button>  
                 </form>

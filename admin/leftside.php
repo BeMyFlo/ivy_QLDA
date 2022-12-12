@@ -9,16 +9,16 @@ if(isset($_GET['admin_id'])){
         <div class="header-top-left">
             <a href="index.php"><img src="../image/logo.png"></a>
         </div>
-            <ul>
+            <ul class="cot-trai-tru-logo">
                 <li><a  href="#"><span  style="color:black; font-size:22px; font-family:var(--main-text-font)">Chào:</span>  <span  style="color:black; font-size:22px; font-family:var(--main-text-font)"><?php echo Session::get('admin_name') ?></span></a>
-                <li><a href="#"><img style="width:30px" src="icon/note.svg" alt="">Đơn hàng</a>
+                <li><a href="#"><i class="fa-solid fa-arrow-up-wide-short"></i>Đơn hàng</a>
                     <ul>
                         <li><a href="orderlist.php">Chưa hoàn thành</a></li>
                         <li><a href="orderlistdone.php">Đã hoàn thành</a></li>
                         <li><a href="orderlistall.php">Tất cả Đơn hàng</a></li>
                     </ul>
                 </li>
-                <li><a href="#"><img style="width:20px" src="icon/options.png" alt="">Danh Mục</a>
+                <li><a href="#"><i class="fa-solid fa-list-check"></i>  Danh Mục</a>
                     <ul>
                         <li><a href="cartegorylist.php">Danh sách</a></li>
                         <li><a href="cartegoryadd.php">Thêm</a></li>

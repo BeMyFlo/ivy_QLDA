@@ -43,7 +43,7 @@ NEW ARRIVAL
         </div>
     </div>
     <div class="button-xemtatca">
-    <button class="custom-btn btn-12"><span>Click!</span><span>Xem tất cả</span></button>
+        <button class="custom-btn btn-12"><span style="color:black; font-weight:bold; font-size:16px">Click!</span ><span style="color:black; font-weight:bold; font-size:16px">Xem tất cả</span></button>
     </div>
     </section>
     <!-- Anh quang cao BST-->
