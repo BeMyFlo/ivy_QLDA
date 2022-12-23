@@ -146,7 +146,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
          </div>
         
     </section>
-
+    <script>(window.b24order=window.b24order||[]).push({id: "ORDER_ID", sum: "ORDER_TOTAL"});</script>
      <!-- -------------------------Footer -->
 <?php
 include "footer.php"

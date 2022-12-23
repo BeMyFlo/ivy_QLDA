@@ -58,7 +58,7 @@ a{
     display: flex;
 }
 .top-menu-items > ul > li {
-    font-family: var(--main-text-font);
+    font-family: 'Raleway';
     padding: 0 12px;
     /* height: 100%; */
     display: flex;
@@ -66,9 +66,9 @@ a{
     align-items: center;
     font-size: 16px;
     text-transform: uppercase;
-    font-weight: bold;
     cursor: pointer;
     position: relative;
+    font-weight: bold;
 }
 .top-menu-items ul li::before {
     position: absolute;
@@ -85,6 +85,7 @@ a{
     color: rgb(0, 0, 0);
 }
 .top-menu-item {
+    margin-top:-10px;
     position: absolute;
     width: 200px;
     top: 100px;
@@ -92,12 +93,11 @@ a{
     display: none;
     opacity: 0;
     transition: all 0.5s ease;
-    background-color: #ffff;
+    background-color: rgb(255, 255, 255);
     height: auto!important;
     padding: 6px 0 12px 0px;
     border: 1px solid #dddddd;
-
-    
+    border-radius: 10px;
 }
 .top-menu-items ul li:hover .top-menu-item {
     display: block;
@@ -105,22 +105,24 @@ a{
     opacity: 1;
 }
 .top-menu-item li {
+    
    line-height: 25px;
    display: flex;
    justify-content: left!important;
    transition: all 0.3s ease;
    padding-left: 6px;
+   margin-top: 10px;
   
 }
 .top-menu-item li:hover {
     background-color: #ebe4e4;
 }
 .top-menu-item li a {
-    font-size: 12px;
+    font-size: 14px;
     text-align: left;
     text-transform: capitalize;
-    color: #333;
-    font-family: var(--main-text-font);
+    color:  #333;
+    font-family: 'Rubik Gemstones';
 }
 
 
@@ -230,7 +232,7 @@ a{
 .footer {
     padding: 100px 0 0;
     margin-top: 50px;
-    border-top: 1px solid rgb(84, 83, 83);
+  
 }
 .footer-container {
     margin: -50px;
@@ -629,16 +631,24 @@ a{
     cursor: pointer;
     margin-right: 6px;
 }
+.product-content-right-bottom-title-item:hover{
+    background-color: #cccccc;
+} 
 .product-content-right-bottom-content {
     padding-top: 30px;
 }
 .product-content-right-bottom-content p {
     font-family: var(--main-text-font);
-    font-size: 12px;
+    font-size: 18px;
+}
+.product-content-right-bottom-title-item::after {
+    font-weight: bold;
 }
 .product-content-right-bottom-title-item p {
     font-family: var(--main-text-font);
-}
+    font-weight: bold;
+}   
+
 .product-content-right-bottom-content-baoquan {
     display: none;
 }
@@ -890,7 +900,8 @@ a{
     color: #0DB7EA;
 }
 .delivery-content-left {
-    width: 60%;
+    margin-left: 10px;
+    width: 55%;
     padding-right: 12px;
 }
 
@@ -1047,7 +1058,8 @@ a{
     color: #0DB7EA;
 }
 .payment-content-left {
-    width: 60%;
+    margin-left: 10px;
+    width: 55%;
 }
 .payment-content-right {
     width: 40%;
@@ -1611,8 +1623,6 @@ a{
   /* ti le khung hinh*/
 .aspect-ratio-170 {
     margin-top: -25px;
-    margin-left: 40px;
-    margin-right: -120px;
 	display: block;
 	position:relative;
 	padding-top: 56.25%;
@@ -1623,11 +1633,14 @@ a{
     align-items: center;
 	display: block;
 	position: absolute;
-	width: 90%;
+	width: 100%;
 	height: auto;
 	top: 0;
 	left: 0;
     border-radius:5%;
     -moz-border-radius:5%;
     -webkit-border-radius:5%;
+}
+.form_bitrix {
+    margin-top: 50px;
 }

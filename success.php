@@ -27,7 +27,7 @@ $session_id = session_id();
                 <a href="detaill.php"><button>XEM CHI TIẾT ĐƠN HÀNG</button></a>
                 <a href="index.php"><button>TIẾP TỤC MUA SẮM</button></a>
             </div>
-            <p>Mọi thắc mắc quý khách vui lòng liên hệ hotline <span  style="font-size: 20px; color: red;">0973 999 949 </span> hoặc chat với kênh hỗ trợ trên website để được hỗ trợ nhanh nhất.</p>
+            <p>Mọi thắc mắc quý khách vui lòng liên hệ hotline <span  style="font-size: 20px; color: red;">0934 149 864 </span> hoặc chat với kênh hỗ trợ trên website để được hỗ trợ nhanh nhất.</p>
     </section>
 
      <!-- -------------------------Footer -->

@@ -23,4 +23,4 @@
         dotItem[index].classList.add("active");
     }
     
-    setInterval (slider,3000)
+    setInterval (slider,6000)

@@ -1,4 +1,8 @@
     <!-- -------------------------Footer -->
+    <div class="form__bitrix" style="margin-top: 100px;">
+        <script data-b24-form="inline/13/b52lg5" data-skip-moving="true">(function(w,d,u){var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(window,document,'https://cdn.bitrix24.vn/b23878803/crm/form/loader_13.js');
+    </script>   
+    </div>
     <section class="footer">
         <div class="footer-container">
             <p>Tải ứng dụng IVY moda</p>

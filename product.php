@@ -4,9 +4,7 @@ include "header.php";
 <?php
 if (isset($_GET['sanpham_id'])|| $_GET['sanpham_id']!=NULL){
     $sanpham_id = $_GET['sanpham_id'];
-    }
-   
-   
+    } 
 ?>
 
  <!-- -----------------------PRODUCT---------------------------------------------- -->

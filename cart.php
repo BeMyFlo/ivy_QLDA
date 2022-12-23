@@ -112,7 +112,7 @@ if(!isset($_GET['id'])){
                         ?>
                     </div>
                     <div class="cart-content-right-button">
-                        <button>TIẾP TỤC MUA SẮM</button>
+                        <a href="index.php"><button>TIẾP TỤC MUA SẮM</button></a>
                         <a href="delivery.php"><button>THANH TOÁN</button></a>
                     </div>
                     <div class="cart-content-right-dangnhap">

@@ -2,9 +2,9 @@
     
     <section class="sliders">
         <div class="aspect-ratio-169">
-            <img src="../ivyfullstak/image/slide1.jpg" alt="">
-            <img src="../ivyfullstak/image/slide2.jpg" alt="">
+            <img src="../ivyfullstak/image/sliderxxx.jpg" alt="">
             <img src="../ivyfullstak/image/slide3.jpg" alt="">
+            <img src="../ivyfullstak/image/xxx.jpg" alt="">
         </div>
         <div class="dot-container">
             <div class="dot active"></div>
@@ -43,7 +43,7 @@ NEW ARRIVAL
         </div>
     </div>
     <div class="button-xemtatca">
-        <button class="custom-btn btn-12"><span style="color:black; font-weight:bold; font-size:16px">Click!</span ><span style="color:black; font-weight:bold; font-size:16px">Xem tất cả</span></button>
+        <a href="http://localhost/ivyfullstack/ivyfullstack/ivyfullstack/ivyfullstak/cartegory.php?loaisanpham_id=13"><button class="custom-btn btn-12"><span style="color:black; font-weight:bold; font-size:16px">Click!</span ><span style="color:black; font-weight:bold; font-size:16px">Xem tất cả</span></button><a/>
     </div>
     </section>
     <!-- Anh quang cao BST-->
@@ -54,4 +54,12 @@ NEW ARRIVAL
     <div class="aspect-ratio-170">
         <img id="img"  src="../ivyfullstak/image/trangchu.jpg">
     </div>
+    
 </div>
+
+<script>
+	(function(w,d,u){
+		var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);
+		var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+	})(window,document,'https://cdn.bitrix24.vn/b23878803/crm/tag/call.tracker.js');
+</script>
